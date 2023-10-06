@@ -11,10 +11,11 @@ Create conda environment with:
 ```
 conda create --name {your env name} python=3.8
 ```
-Add some of your credentials to a .env file:
+Download requirements and add some of your credentials to a .env file:
 ```
 conda activate  {your env name}
 cd music_bot
+pip install -r requirements.txt
 sudo nano .env
 ```
 Run the bot:
