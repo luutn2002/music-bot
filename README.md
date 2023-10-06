@@ -14,9 +14,15 @@ python3 music_bot.py
 ```
 ### Discord command: 
 ```/search_and_add``` search for a youtube keyword, select an element to add to your playlist.
+
 ```/play``` play songs in playlist and pop it, will stop playing if there are no song left in playlist
-```/stop``` disconnect bot from voice channel
-```/skip``` skip current song
-```/pause``` pause current song
-```/resume``` resume song if any are paused
+
+```/stop``` disconnect bot from voice channel.
+
+```/skip``` skip current song.
+
+```/pause``` pause current song.
+
+```/resume``` resume song if any are paused.
+
 ```/sync``` sync newly added command to bot, for developer.
