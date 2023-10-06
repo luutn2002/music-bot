@@ -3,11 +3,20 @@ A python music bot for discord server to pull youtube music to voice channel.
 ## Usage
 This bot was originally ran on Ubuntu, so there are only official conda support running.
 ### Environment setup:
+Clone the repo:
+```
+git clone https://github.com/luutn2002/music-bot.git
+```
 Create conda environment with:
 ```
 conda create --name {your env name} python=3.8
 ```
-Add some of your credentials to a .env file
+Add some of your credentials to a .env file:
+```
+conda activate  {your env name}
+cd music_bot
+sudo nano .env
+```
 Run the bot:
 ```
 python3 music_bot.py
